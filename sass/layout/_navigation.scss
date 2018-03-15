@@ -1,0 +1,57 @@
+.navbar {
+    height: 5rem;
+    font-size: 1.5rem;
+    background-color: $color-primary;
+    
+    &-brand {
+        margin-right: auto;
+    }
+    
+    &-collapse {
+        flex-grow: 0;
+        
+    }
+    
+    &-logo img{
+        width: 17rem;
+        
+    }
+    
+    &-nav li {
+        height: 5rem;
+        line-height: 4rem;
+        dispaly: inline-block;
+        padding: 0 5px;
+    }
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    
+    
+    &:hover {
+        color: $color-secondary;
+        border-bottom: 1rem solid $color-secondary;
+    }
+    
+    &:focus {
+        color: $color-secondary;
+    }
+    
+}
+
+.dropdown-menu {
+    background-color: $color-primary;
+    
+    & a {
+        background-color: $color-primary;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 0 5rem 0 2rem;
+        text-align: left; 
+        letter-spacing: 1px;
+    }
+}

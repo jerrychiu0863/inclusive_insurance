@@ -1,0 +1,20 @@
+.section__ourservice {
+    background-color: #fff;
+    height: 60rem;
+    padding-top: 7rem;
+    text-align: center;
+    
+}
+
+.section__contact {
+    height: 64rem;
+    padding-top: 7rem;
+    text-align: center;
+    background-image: linear-gradient(105deg, $color-teritory, $color-fourth);
+    
+    & h2 {
+        color: $color-white;
+        
+    }
+    
+}
