@@ -36,13 +36,13 @@ body {
 .mb-lg {
   margin-bottom: 6rem; }
 
-.card {
+.flipcard {
   -moz-perspective: 150rem;
   perspective: 150rem;
   position: relative;
   height: 35rem;
   border: none; }
-  .card__side {
+  .flipcard__side {
     height: 35rem;
     transition: all .5s;
     position: absolute;
@@ -50,7 +50,7 @@ body {
     left: 0;
     width: 100%;
     backface-visibility: hidden; }
-    .card__side--front {
+    .flipcard__side--front {
       color: #081B36;
       background: #fff;
       text-align: center;
@@ -59,9 +59,9 @@ body {
       padding-top: 10rem;
       box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2);
       border-radius: 4px; }
-      .card__side--front p {
+      .flipcard__side--front p {
         color: #777; }
-    .card__side--back {
+    .flipcard__side--back {
       background-image: linear-gradient(to bottom right, #081B36, #0575e6);
       color: #fff;
       transform: rotateY(180deg);
@@ -69,23 +69,23 @@ body {
       padding: 2rem 0;
       border-radius: 4px;
       box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2); }
-      .card__side--back p {
+      .flipcard__side--back p {
         font-size: 3rem;
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 3px;
         margin-bottom: 0; }
-      .card__side--back ul {
+      .flipcard__side--back ul {
         font-size: 1.5rem;
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 0 5rem; }
-        .card__side--back ul li {
+        .flipcard__side--back ul li {
           padding: .5rem;
           border-bottom: .3px solid #7ac2f2;
           display: inline-block;
           display: block; }
-      .card__side--back a {
+      .flipcard__side--back a {
         text-decoration: none;
         font-size: 1rem;
         margin-top: 1rem;
@@ -96,17 +96,17 @@ body {
         letter-spacing: 1.5px;
         display: inline-block;
         transition: all .2s; }
-        .card__side--back a:hover {
+        .flipcard__side--back a:hover {
           background-color: #fff;
           color: #081B36;
           transform: translateY(-3px); }
-        .card__side--back a:active {
+        .flipcard__side--back a:active {
           background-color: #fff;
           color: #081B36;
           transform: translateY(0); }
-  .card:hover .card__side--front {
+  .flipcard:hover .flipcard__side--front {
     transform: rotateY(180deg); }
-  .card:hover .card__side--back {
+  .flipcard:hover .flipcard__side--back {
     transform: rotateY(0); }
 
 .svg-inline--fa {
@@ -283,3 +283,7 @@ body {
 
 .svg-inline--fa.fa-w-16 {
   font-size: 8rem; }
+
+.section__accordion {
+  height: 50rem;
+  background-color: rgba(5, 117, 230, 0.1); }
