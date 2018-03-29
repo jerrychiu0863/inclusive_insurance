@@ -30,15 +30,17 @@
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     text-transform: uppercase;
+    transition: all .4s;
     
     
     &:hover {
-        color: $color-secondary;
-        border-bottom: 1rem solid $color-secondary;
+        color: $color-primary;
+        background-color: $color-white;
     }
     
     &:focus {
-        color: $color-secondary;
+        color: $color-primary;
+        background-color: $color-white;
     }
     
 }
