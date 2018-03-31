@@ -52,3 +52,108 @@
     font-size: 8rem;
 }
 
+//////////////////////////////////
+//////////SECTION QUOTE
+
+
+.section__quote {
+    height: 47rem;
+    background-color: rgba($color-white, .9);
+    
+    & .container {
+        display: flex;
+    }
+    
+    &-left {
+        width: 30%;
+        height: 364.683px;
+        background-color: rgba($color-white, .5);
+        padding: 3rem 3rem 0 3rem;
+        margin-top: 5rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 2rem rgba(0,0,0,.1);
+        border-radius: 3px 0 0 3px;
+        overflow: hidden;
+        
+        
+        & img {
+            width: 15rem;
+            border-radius: 50%;
+            display: block;
+            border: 5px solid rgba($color-teritory, .5);
+            
+        }
+        
+        & h4 {
+            margin-top: .5rem;
+        }
+        
+        & p {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            letter-spacing: .5px;
+        }
+        
+        & a:link,
+        & a:visited {
+            background-color: $color-teritory;
+            display: block;
+            align-self: stretch;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            color: $color-white;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1.5rem;
+            margin: 0 -3rem;
+            transition: all .3s;
+        }
+        
+        & a:hover,
+        & a:active {
+            background-color: $color-primary;
+        }
+        
+        & .fa-envelope {
+            font-size: 2rem;
+            color: $color-white;
+            margin-right: 1rem;
+        }
+    }
+    
+    &-right {
+        width: 70%;
+        height: 364.683px;
+        margin-top: 5rem;
+        background-color: rgba($color-fourth, .5);
+        background-color: rgba($color-white, .5);
+        padding: 3rem 4rem 0 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: -.5rem 0 1rem rgba(0,0,0,.1) inset;
+        border-radius: 0 3px 3px 0;
+        overflow: hidden;
+        
+        & h2 {
+            font-size: 3rem;
+            color: rgba($color-black, .5);
+            line-height: 1.5;
+            text-align: justify;
+            text-justify: inter-word;
+            
+        }
+        
+        & p {
+            text-align: center; 
+            font-size: 2rem;
+            color: $color-grey-medium;
+        }
+    }
+    
+}
