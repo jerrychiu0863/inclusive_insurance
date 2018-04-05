@@ -85,6 +85,7 @@
             border-radius: 50%;
             display: block;
             border: 5px solid rgba($color-teritory, .5);
+            box-sizing: content-box;
             
         }
         
@@ -130,9 +131,8 @@
         width: 70%;
         height: 364.683px;
         margin-top: 5rem;
-        background-color: rgba($color-fourth, .5);
         background-color: rgba($color-white, .5);
-        padding: 3rem 4rem 0 3rem;
+        padding: 3rem 1.5rem 0 4rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -144,8 +144,7 @@
             font-size: 3rem;
             color: rgba($color-black, .5);
             line-height: 1.5;
-            text-align: justify;
-            text-justify: inter-word;
+            letter-spacing: 1px;
             
         }
         
