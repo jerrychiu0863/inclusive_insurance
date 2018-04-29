@@ -1,0 +1,102 @@
+.section-consult {
+    height: auto;
+    background-color: $color-white;
+    
+    &-top {
+        
+        
+        & .consult__content-left{
+            width: 30rem;
+            height: 30rem;
+            padding: 2rem;
+            padding-top: 5rem;
+            text-align: center;
+            margin-top: 28rem;
+            background-color: $color-teritory;
+            border-radius: 5px;
+            
+            & .fa-chart-pie {
+                display: inline-block;
+                margin-bottom: 2rem;
+                font-size: 10rem;
+                color: $color-white;
+            }
+            
+            & h4 {
+                font-size: 2.5em;
+                color: $color-white;
+                letter-spacing: 2px;
+                
+            }
+        }
+        
+        & .consult__content-right{
+            width: 70%;
+            padding: 2rem;
+            padding-left: 5rem;
+            margin-top: 10rem;
+            
+            & p {
+                font-size: 1.8rem;
+                line-height: 1.7;
+            }
+            
+            & ul {
+                padding-left: 1.4rem;
+                & li {
+                     font-size: 1.8rem;
+                    
+                }
+            }
+        }
+    }
+  //////////////Consult-bottom  
+     &-bottom {
+        //background-color: aqua;
+        
+        & .consult__content-left{
+            width: 30rem;
+            height: 30rem;
+            padding: 2rem;
+            padding-top: 7rem;
+            text-align: center;
+            margin-top: 28rem;
+            background-color: $color-teritory;
+            border-radius: 5px;
+            
+            & .fa-exclamation {
+                display: inline-block;
+                margin-bottom: 2rem;
+                font-size: 10rem;
+                color: $color-white;
+            }
+            
+            & h4 {
+                font-size: 2.5em;
+                color: $color-white;
+                letter-spacing: 2px;
+                
+            }
+        }
+        
+        & .consult__content-right{
+            width: 70%;
+            padding: 2rem;
+            padding-left: 5rem;
+            margin-top: 10rem;
+            
+            & p {
+                font-size: 1.8rem;
+                line-height: 1.7;
+            }
+            
+            & ul {
+                padding-left: 1.4rem;
+                & li {
+                     font-size: 1.8rem;
+                    
+                }
+            }
+        }
+    }
+} 
