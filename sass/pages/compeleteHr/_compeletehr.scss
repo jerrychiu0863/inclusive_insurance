@@ -4,11 +4,31 @@
     background-image: url(../image/bigtouchdarkreversed.jpg);
     background-size: cover;
     background-position: center;
+    
+    & .header-content {
+        padding: 10rem;
+        padding-top: 16%;
+        
+        & h2 {
+            font-size: 4rem;
+            color: $color-white;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        
+        & p {
+            font-size: 2rem;
+            color: $color-white;
+        }
+        
+    }
 }
 
 .section-header1{
     text-align: center;
-    padding: 2rem;
+    padding: 4rem;
+    background-color: $color-white;
+    
     & h2 {
      margin-bottom: 2rem;
     }
@@ -37,6 +57,152 @@
     
     & .cta:active {
         background-color: $color-primary;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+        display: inline-block;
+        transform: translateY(-2px);
+    }
+}
+
+.section-hrcontent {
+    background-color: $color-white;
+    height: 55rem;;
+    padding-top: 3rem;
+    
+    & .content-left{
+        
+        & h3 {
+            font-size: 3rem;
+            color: $color-primary;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        & p {
+            font-size: 1.5rem;
+            line-height: 1.7;
+        }
+    }
+    
+    & .content-right {
+        
+        & img {
+            max-width: 35rem;
+        }
+    }
+}
+
+/////Section-feature
+.section-feature {
+    text-align: center;
+    padding: 5rem;
+    background-image: linear-gradient(to right bottom, $color-teritory, $color-secondary);
+    
+    & h2 {
+        margin-bottom: 4rem;
+        color: $color-white;
+    }
+    
+    & .feature__card {
+        text-align: center;
+        background-color: $color-white;
+        padding: 2rem;
+        padding-top: 4rem;
+        border-radius: 10px;
+        transition: all .2s;
+        height: 45rem;
+        margin-bottom: 2rem;
+        
+        &-icon {
+            margin-bottom: 1rem;
+        }
+        
+        &-header {
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $color-primary;
+        }
+        
+        &-content {
+            font-size: 1.5rem;
+        }
+        
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 1.8rem rgba($color-black, .6);
+        }
+    }
+    
+    
+}
+
+
+////////section-aboutus
+.section-aboutUs{
+    background-color: $color-white;
+    height: 55rem;;
+    padding-top: 5rem;
+    
+    & .content-left{
+        
+        & h3 {
+            font-size: 3rem;
+            color: $color-primary;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        & p {
+            font-size: 1.5rem;
+            line-height: 1.7;
+        }
+    }
+    
+    & .content-right {
+        
+        & img {
+            max-width: 35rem;
+            margin-top: 5rem;
+        }
+    }
+}
+
+////////HEADER-2
+.section-header2{
+    text-align: center;
+    padding: 2rem;
+    background-color: $color-primary;
+    
+    & h2 {
+     margin-bottom: 2rem;
+     font-size: 2.5rem;
+     color: $color-white;
+    }
+    
+    & .cta:visited,
+    & .cta:link {
+        display: inline-block;
+        font-size: 1.2rem;
+        color: $color-primary;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        background-color: $color-white;
+        padding: 1rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-decoration: none;
+        transition: all .2s;
+    }
+    
+    & .cta:hover {
+        
+        box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+        display: inline-block;
+        transform: translateY(-5px);
+    }
+    
+    & .cta:active {
+        
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
         display: inline-block;
         transform: translateY(-2px);

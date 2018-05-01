@@ -41,6 +41,9 @@ h4 {
 .mb-lg {
   margin-bottom: 6rem; }
 
+.font-sm {
+  font-size: 1.4rem !important; }
+
 .flipcard {
   -moz-perspective: 150rem;
   perspective: 150rem;
@@ -321,10 +324,22 @@ h4 {
   background-image: url(../image/bigtouchdarkreversed.jpg);
   background-size: cover;
   background-position: center; }
+  .section-heroImage .header-content {
+    padding: 10rem;
+    padding-top: 16%; }
+    .section-heroImage .header-content h2 {
+      font-size: 4rem;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: 2px; }
+    .section-heroImage .header-content p {
+      font-size: 2rem;
+      color: #fff; }
 
 .section-header1 {
   text-align: center;
-  padding: 2rem; }
+  padding: 4rem;
+  background-color: #fff; }
   .section-header1 h2 {
     margin-bottom: 2rem; }
   .section-header1 .cta:visited,
@@ -347,6 +362,96 @@ h4 {
     transform: translateY(-5px); }
   .section-header1 .cta:active {
     background-color: #081B36;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transform: translateY(-2px); }
+
+.section-hrcontent {
+  background-color: #fff;
+  height: 55rem;
+  padding-top: 3rem; }
+  .section-hrcontent .content-left h3 {
+    font-size: 3rem;
+    color: #081B36;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .section-hrcontent .content-left p {
+    font-size: 1.5rem;
+    line-height: 1.7; }
+  .section-hrcontent .content-right img {
+    max-width: 35rem; }
+
+.section-feature {
+  text-align: center;
+  padding: 5rem;
+  background-image: linear-gradient(to right bottom, #2c4971, #0575e6); }
+  .section-feature h2 {
+    margin-bottom: 4rem;
+    color: #fff; }
+  .section-feature .feature__card {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    padding-top: 4rem;
+    border-radius: 10px;
+    transition: all .2s;
+    height: 45rem;
+    margin-bottom: 2rem; }
+    .section-feature .feature__card-icon {
+      margin-bottom: 1rem; }
+    .section-feature .feature__card-header {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #081B36; }
+    .section-feature .feature__card-content {
+      font-size: 1.5rem; }
+    .section-feature .feature__card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.6); }
+
+.section-aboutUs {
+  background-color: #fff;
+  height: 55rem;
+  padding-top: 5rem; }
+  .section-aboutUs .content-left h3 {
+    font-size: 3rem;
+    color: #081B36;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .section-aboutUs .content-left p {
+    font-size: 1.5rem;
+    line-height: 1.7; }
+  .section-aboutUs .content-right img {
+    max-width: 35rem;
+    margin-top: 5rem; }
+
+.section-header2 {
+  text-align: center;
+  padding: 2rem;
+  background-color: #081B36; }
+  .section-header2 h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #fff; }
+  .section-header2 .cta:visited,
+  .section-header2 .cta:link {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #081B36;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .2s; }
+  .section-header2 .cta:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transform: translateY(-5px); }
+  .section-header2 .cta:active {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
     display: inline-block;
     transform: translateY(-2px); }
