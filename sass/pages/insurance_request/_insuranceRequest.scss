@@ -1,0 +1,68 @@
+.section-insurnaceRequest {
+    text-align: center;
+    padding-top: 5rem;
+    background-color: $color-white;
+    height: 90rem;;
+    
+    & .form {
+        background-color: #eee;
+        margin: 0 auto;
+        width: 50%;
+        text-align: left;
+        padding: 2rem;
+        padding-left: 4rem;
+        background-color: $color-white;
+        box-shadow: 0 0 1rem rgba($color-black, .3);
+        border-radius: 2px;
+        margin-top: 5rem;
+        
+        &__group{
+            margin-bottom: 1rem;            
+            &-label {
+                font-size: 2rem;
+                font-weight: 400;
+                color: $color-font;
+                margin-bottom: 0;
+            }
+            
+            &-input {
+                width: 95%;
+                font-size: 1.4rem;
+                padding-left: .5rem;
+                padding: .4rem;
+                border: none;
+                border-bottom: 2px solid $color-font;
+                background-color: transparent;
+                
+            }
+            
+            &-radio {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            
+            &-btn {
+                font-size: 1.4rem;
+                margin-top: 2rem;
+                
+                & a:link,
+                & a:visited {
+                    text-decoration: none;
+                    color: $color-white;
+                    font-weight: 700;
+                    background-color: $color-teritory;
+                    padding: .3rem 6rem;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    border-radius: 5px;
+                    display: inline-block;
+                    
+                }
+                
+                & a:hover {
+                    background-color: $color-primary;
+                }
+            }
+        }
+    }
+}
